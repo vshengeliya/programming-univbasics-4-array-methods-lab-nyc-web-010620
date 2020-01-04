@@ -1,33 +1,23 @@
-def using_include(array, element) = 
-  ["white", "black", "red"]
-  using_include.include?("red")
+def using_include(array, element)
+  array.include?(element)
 end
 
-def using_sort(array)=
-  ["white", "black", "red"]
-  using_sort.sort!
-
+def using_sort(array)
+  array.sort
 end
 
-def using_reverse(array)=
-["white", "black", "red"]
-using_reverse.reverse!
+def using_reverse(array)
+  array.reverse
 end
 
-def using_first(array)=
-  ["white", "black", "red"]
-  using_first.first
-
+def using_first(array)
+  array.first
 end
 
-def using_last(array)=
-  ["white", "black", "red"]
-  using_last.last
-
+def using_last(array)
+  array.last
 end
 
-def using_size(array) = 
-  ["white", "black", "red"]
-  using_size.size
-
+def using_size(array)
+  array.size
 end
