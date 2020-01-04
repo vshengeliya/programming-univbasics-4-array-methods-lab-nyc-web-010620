@@ -18,8 +18,6 @@ def using_last(array)
   array.last
 end
 
-# def using_size(array) = 
-#   ["white", "black", "red"]
-#   using_size.size
-
-# end
+def using_size(array)
+  array.size
+end
