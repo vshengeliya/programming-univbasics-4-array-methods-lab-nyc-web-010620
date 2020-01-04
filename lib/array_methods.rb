@@ -10,11 +10,9 @@ def using_reverse(array)
   array.reverse
 end
 
-# def using_first(array)=
-#   ["white", "black", "red"]
-#   using_first.first
-
-# end
+def using_reverse(array)
+  array.reverse
+end
 
 # def using_last(array)=
 #   ["white", "black", "red"]
