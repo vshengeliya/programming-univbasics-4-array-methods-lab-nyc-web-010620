@@ -6,10 +6,9 @@ def using_sort(array)
   array.sort
 end
 
-# def using_reverse(array)=
-# ["white", "black", "red"]
-# using_reverse.reverse!
-# end
+def using_sort(array)
+  array.sort
+end
 
 # def using_first(array)=
 #   ["white", "black", "red"]
