@@ -2,11 +2,9 @@ def using_include(array, element)
   array.include?(element)
 end
 
-# def using_sort(array)=
-#   ["white", "black", "red"]
-#   using_sort.sort!
-
-# end
+def using_sort(array, element)
+  array.sort(element)
+end
 
 # def using_reverse(array)=
 # ["white", "black", "red"]
